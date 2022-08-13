@@ -1,4 +1,4 @@
-import { player1, player2, player3 } from '../../src'
+import { player1, player2, player3 } from '../../src';
 import Character from '../../src/Character';
 
 const func = (players: Character[]) => players.map(p => p.lifePoints);
