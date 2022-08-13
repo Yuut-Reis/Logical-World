@@ -2,10 +2,9 @@ import Battle, { PVE, PVP } from './Battle';
 import Character from './Character';
 import Dragon from './Dragon';
 import Monster from './Monster';
-import getRandomInt from './utils';
 
 const player1 = new Character('Yuut');
-for (let up = getRandomInt(5, 15); up > 0; up -= 1) {
+for (let up = 0; up < 15; up += 1) {
   player1.levelUp();
 }
 const player2 = new Character('Ark anukai');
@@ -21,6 +20,5 @@ function runBattles(battles: Battle[]): void {
   });
 }
 export {
-  Character,
   player1, player2, player3, monster1, monster2, pvp, pve, runBattles,
 };
