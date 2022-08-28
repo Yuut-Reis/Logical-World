@@ -8,7 +8,7 @@
 <details>
  <summary><strong>🔨 Ferramentas e Tecnologias </strong></summary><br />
  
- https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
+ ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
  
  
 </details>
